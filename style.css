@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif
 }
 
 main {
@@ -22,18 +23,14 @@ main {
     border-radius: 3rem;
     backdrop-filter: blur(3rem);
     display: flex;
+    margin: 1rem;
 }   
 #profile-pic{
-    height: 5rem;
-    width: 5rem;
+    height: 10rem;
+    width: 10rem;
     border-radius: 50%;
 }
 
-#filler{
-    height: 15rem;
-    width: 15rem;
-    border-radius: 50%;
-}
 .navbar {
     flex: 1;
     display: flex;
@@ -45,16 +42,107 @@ main {
     border-radius: 3rem;
 }
 
-.right-home{
+.home, .about-me, .projects, .contact-me{
     flex: 2;
 }
 
-.navlinks{
+
+.navlinks ul li{
     display:flex;
     flex-direction: column;
-    /* margin: 2rem 0rem;
-    padding: 1rem 5rem; */
-    text-decoration: none;
+    list-style: none;
     text-align: center;
-    justify-content: space-evenly;
+}
+
+.navlinks ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 3rem;
+    font-weight: 500;
+    letter-spacing: 0.3rem;
+}
+
+.navlinks a:hover {
+    color: #1e4661;
+}
+
+.about-me h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    margin: 2rem;
+}
+
+.about-me h3{
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    margin: 2rem;
+}
+
+.about-me p {
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    margin: 2rem;
+}
+
+.projects h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    margin: 2rem;
+}
+
+.projects a img {
+    position: relative;
+    height: 10rem;
+    width: 10rem;
+    flex-direction: row;
+    margin: .5rem;
+    padding: .5rem;
+}
+
+.contact-me h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    margin: 2rem;
+}
+
+.contact-me p {
+    position: relative;
+    top: 5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    margin: 2rem;
+}
+
+.contact-me ul li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style: none;
+}
+
+.contact-me ul li a {
+    position: relative;
+    top: 10rem;
+    text-decoration: none;
+    color: white;
+    font-size: 3rem;
+    font-weight: 500;
+    letter-spacing: 0.3rem;
+}
+
+.contact-me a:hover{
+    color: #1e4661;
 }
