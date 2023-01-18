@@ -42,6 +42,41 @@ main {
     border-radius: 3rem;
 }
 
+.home h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    margin: 2rem;
+}
+
+.home p{
+    position: relative;
+    top: 5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    margin: 2rem;
+
+}
+
+.home a{
+    display: flex;
+    position: relative;
+    top: 15rem;
+    text-decoration: none;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 0.3rem;
+}
+
+.home a:hover{
+    color: #1e4661;
+}
+
 .home, .about-me, .projects, .contact-me{
     flex: 2;
 }
