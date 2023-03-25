@@ -55,7 +55,7 @@ main {
 
 .home p{
     position: relative;
-    top: 5rem;
+    top: 0rem;
     font-size: 1.5rem;
     font-weight: 500;
     letter-spacing: 0.3rem;
@@ -67,7 +67,7 @@ main {
 .home a{
     display: flex;
     position: relative;
-    top: 15rem;
+    top: 0rem;
     text-decoration: none;
     justify-content: center;
     color: #ecf2f4;
